@@ -12,11 +12,11 @@
         <v-toolbar-title v-text="title" />
       </nuxt-link>
     </v-app-bar>
-    <v-content>
+    <v-main>
       <v-container>
         <nuxt />
       </v-container>
-    </v-content>
+    </v-main>
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }} Elnur Hajiyev</span>
     </v-footer>
